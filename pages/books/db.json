@@ -1,0 +1,166 @@
+{
+    "livros": [
+      {
+        "imgCapa": "https://s3.novatec.com.br/capas/9788575226834.jpg",
+        "descricao": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi eleifend, purus quis laoreet faucibus, ante augue malesuada mi, id rhoncus augue lorem eget elit. Ut sollicitudin sodales purus.</p>",
+        "titulo": "Primeiros passos com a linguagem Rust",
+        "link":"https://novatec.com.br/livros/primeiros-passos-linguagem-rust/",
+        "pgAutores": {
+          "pgAutor1": "autores/jose-manzano.php"
+        },
+        "autores": {
+          "autor1": "José Augusto N. G. Manzano"
+        },
+        "categoria": "Programação",
+        "isbn": "978-85-7522-683-4",
+        "ano": "2018",
+        "paginas": "312",
+        "preco": 69,
+        "estoque": "Disponível também em formato ebook"
+      },
+  
+      {
+        "imgCapa": "https://s3.novatec.com.br/capas/9788575226674.jpg",
+        "descricao": "<p>Phasellus libero felis, blandit nec, commodo ut, imperdiet ut, nibh. Suspendisse potenti. Donec ullamcorper cursus dolor. Duis vitae ipsum. Maecenas dapibus hendrerit diam. Morbi varius, massa id pretium accumsan, nunc lorem congue libero, ut euismod metus libero id nulla.</p>",
+        "titulo": "Programação em Baixo Nível",
+        "link":"https://novatec.com.br/livros/programacao-em-baixo-nivel/",
+        "pgAutores": {
+          "pgAutor1": "autores/igor-zhirkov.php"
+        },
+        "autores": {
+          "autor1": "Igor Zhirkov"
+        },
+        "categoria": "Hardware &amp; Robótica",
+        "isbn": "978-85-7522-667-4",
+        "ano": "2018",
+        "paginas": "576",
+        "preco": 120,
+        "estoque": "Disponível também em formato ebook"
+      },
+  
+      {
+        "imgCapa": "https://s3.novatec.com.br/capas/9788575226681.jpg",
+        "pgLivro": "livros/introducao-a-linguagem-lua",
+        "descricao": "<p>Duis posuere odio sed velit vulputate venenatis. Suspendisse et dui ac metus auctor fringilla. Curabitur interdum augue a pede.</p>>",
+        "titulo": "Introdução à linguagem Lua",
+        "link":"https://novatec.com.br/livros/introducao-a-linguagem-lua/",
+        "pgAutores": {
+          "pgAutor1": "autores/jose-manzano.php"
+        },
+        "autores": {
+          "autor1": "José Augusto N. G. Manzano"
+        },
+        "categoria": "Programação",
+        "isbn": "978-85-7522-668-1",
+        "ano": "2018",
+        "paginas": "176",
+        "preco": 52,
+        "estoque": "Disponível também em formato ebook"
+      },
+  
+      {
+        "imgCapa": "https://s3.novatec.com.br/capas/9788575226568.jpg",
+        "descricao": "<p>Duis cursus, dui non dictum tincidunt, wisi ipsum mollis wisi, nec ornare velit ipsum eget enim. In sed felis. Phasellus condimentum sodales nulla. Etiam orci leo, rutrum malesuada, congue vel, fringilla vitae, lorem. Pellentesque ligula.</p>",
+        "titulo": "Lógica de Programação e Algoritmos com JavaScript",
+        "link":"https://novatec.com.br/livros/logica-programacao-algoritmos-com-javascript-2ed/",
+        "pgAutores": {
+          "pgAutor1": "autores/edecio-iepsen.php"
+        },
+        "autores": {
+          "autor1": "Edécio Fernando Iepsen"
+        },
+        "categoria": "Programação",
+        "isbn": "978-85-7522-656-8",
+        "ano": "2018",
+        "paginas": "320",
+        "preco": 69,
+        "estoque": "Disponível também em formato ebook"
+      },
+  
+      {
+        "imgCapa": "https://s3.novatec.com.br/capas/9788575225905.jpg",
+        "pgLivro": "livros/php-para-quem-conhece-php-5ed/",
+        "descricao": "<p>Cras gravida. Mauris consequat aliquam leo. Aenean non tortor id metus aliquet consectetuer. Quisque sodales lectus ac orci. Donec eleifend fringilla mi. Vivamus vel massa. Aenean interdum pellentesque sem. Nulla pellentesque felis et tortor. Duis cursus, dui non dictum tincidunt, wisi ipsum mollis wisi, nec ornare velit ipsum eget enim. In sed felis. Phasellus condimentum sodales nulla. Etiam orci leo, rutrum malesuada, congue vel, fringilla vitae, lorem. Pellentesque ligula.</p>",
+        "titulo": "PHP para quem conhece PHP - 5ª Edição",
+        "link":"https://novatec.com.br/livros/php-para-quem-conhece-php-5ed/",
+        "pgAutores": {
+          "pgAutor1": "autores/niederauer.php"
+        },
+        "autores": {
+          "autor1": "Juliano Niederauer"
+        },
+        "categoria": "Programação",
+        "isbn": "978-85-7522-590-5",
+        "ano": "2017",
+        "paginas": "544",
+        "preco": 99,
+        "estoque": "Disponível também em formato ebook"
+      },
+  
+      {
+        "imgCapa": "https://s3.novatec.com.br/capas/9788575225462.jpg",
+        "pgLivro": "livros/linguagem-de-programacao-go/",
+        "descricao": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi eleifend, purus quis laoreet faucibus, ante augue malesuada mi, id rhoncus augue lorem eget elit. Ut sollicitudin sodales purus. Phasellus libero felis, blandit nec, commodo ut, imperdiet ut, nibh. Suspendisse potenti. Donec ullamcorper cursus dolor. Duis vitae ipsum. Maecenas dapibus hendrerit diam. Morbi varius, massa id pretium accumsan, nunc lorem congue libero, ut euismod metus libero id nulla. Duis posuere odio sed velit vulputate venenatis. Suspendisse et dui ac metus auctor fringilla. Curabitur interdum augue a pede.</p><p>Curabitur hendrerit erat ut augue. Cras gravida. Mauris consequat aliquam leo. Aenean non tortor id metus aliquet consectetuer. Quisque sodales lectus ac orci. Donec eleifend fringilla mi. Vivamus vel massa. Aenean interdum pellentesque sem. Nulla pellentesque felis et tortor. Duis cursus, dui non dictum tincidunt, wisi ipsum mollis wisi, nec ornare velit ipsum eget enim. In sed felis. Phasellus condimentum sodales nulla. Etiam orci leo, rutrum malesuada, congue vel, fringilla vitae, lorem. Pellentesque ligula.</p>",
+        "titulo": "A Linguagem de Programação Go",
+        "link":"https://novatec.com.br/livros/linguagem-de-programacao-go/",
+        "autores": {
+          "autor1": "Alan A. Donovan",
+          "autor2": "Brian W. Kernighan"
+        },
+        "pgAutores": {
+          "pgAutor1": "autores/alan-donovan.php",
+          "pgAutor2": "autores/brian-kernighan.php"
+        },
+        "categoria": "Programação",
+        "isbn": "978-85-7522-546-2",
+        "ano": "2017",
+        "paginas": "480",
+        "preco": 98,
+        "estoque": ""
+      },
+      {
+        "imgCapa": "https://m.media-amazon.com/images/I/71dH97FwGbL._SL1500_.jpg",
+        "titulo": "Código limpo: habilidades práticas do Agile software",
+        "link":"https://www.amazon.com.br/C%C3%B3digo-limpo-Robert-C-Martin/dp/8576082675/ref=sr_1_1?adgrpid=126076715999&dib=eyJ2IjoiMSJ9.5AFjMHmkVcZ-CKmcya9HN3bTBDAeK6NCMhly2erj6znzneRuXST5b9XXokI0VN6m48Vtr-jeevQ660bHsVKOI355N6ji-j9d5fPvd9bP8Xy4lOauXXCn0dLYY7id8zrRyEUZPq2myQja43VCB64zow.HJJ8POQ4oOK6u8E0l36kUXqcVzRAQBb64l-0mbFNqk4&dib_tag=se&gclid=CjwKCAjwi_exBhA8EiwA_kU1MhBS0E6Qgy_DmijajjDYMc-NMNOxYahcnD6Gcwu16fpZ353sx6WO5BoCkrMQAvD_BwE&hvadid=593184215941&hvdev=c&hvlocphy=1001773&hvnetw=g&hvqmt=e&hvrand=7102197180618515696&hvtargid=kwd-834621321254&hydadcr=25487_13512538&keywords=codigo+limpo+amazon&qid=1715366912&sr=8-1",
+        "autores": {
+          "autor1": "Robert C. Martin"
+        },
+
+        "categoria": "Programação",
+        "preco": 78
+      },
+      {
+        "imgCapa": "https://m.media-amazon.com/images/I/61N84VgZ4wL._SL1106_.jpg",
+        "titulo": "Orientação a Objetos e SOLID Para Ninjas...",
+        "link":"https://www.amazon.com.br/C%C3%B3digo-limpo-Robert-C-Martin/dp/8576082675/ref=sr_1_1?adgrpid=126076715999&dib=eyJ2IjoiMSJ9.5AFjMHmkVcZ-CKmcya9HN3bTBDAeK6NCMhly2erj6znzneRuXST5b9XXokI0VN6m48Vtr-jeevQ660bHsVKOI355N6ji-j9d5fPvd9bP8Xy4lOauXXCn0dLYY7id8zrRyEUZPq2myQja43VCB64zow.HJJ8POQ4oOK6u8E0l36kUXqcVzRAQBb64l-0mbFNqk4&dib_tag=se&gclid=CjwKCAjwi_exBhA8EiwA_kU1MhBS0E6Qgy_DmijajjDYMc-NMNOxYahcnD6Gcwu16fpZ353sx6WO5BoCkrMQAvD_BwE&hvadid=593184215941&hvdev=c&hvlocphy=1001773&hvnetw=g&hvqmt=e&hvrand=7102197180618515696&hvtargid=kwd-834621321254&hydadcr=25487_13512538&keywords=codigo+limpo+amazon&qid=1715366912&sr=8-1",
+        "autores": {
+          "autor1": " Maurício Aniche"
+        },
+
+        "categoria": "Programação",
+        "preco": 59
+      },
+      {
+        "imgCapa": "https://m.media-amazon.com/images/I/81jdJ94mSbL._SL1500_.jpg",
+        "titulo": "Java®: Como Programar ",
+        "link":"https://www.amazon.com.br/Java%C2%AE-como-programar-Paul-Deitel/dp/8543004799/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=31BFC829JO18Y&dib=eyJ2IjoiMSJ9.dp_Em6V7JtLamERcFja7waDpwOQJwq1xAviS97thZfVfs8QxETSyOUBy-L7l8fl5fatjpmJWIxmz13AA1GLlxdtSRZhEw6YFZWqZq9lUbxWr90GS500Haozb2ffiziJK8YZeklmz6tBJhJWc1vNn48q4qMUmJm7D9FCbdbR7AOq3H2FHouuMoO8AXGOXp8uK1xtJWTn9zjxy1B4kapZaKcdKPa6DEE-MnhWSKG4yEMQm15RMj286Qhl2yNmwz42tH8P6Pyu1dH528ZJ4-lUMgd_eGO9y_205cXJEjARBoNM.k5vBp00PNf30BV3R6onvQklgM4G2F7ZKyuChK_wVRg4&dib_tag=se&keywords=java&qid=1715367244&sprefix=java%2Caps%2C202&sr=8-1&ufe=app_do%3Aamzn1.fos.e05b01e0-91a7-477e-a514-15a32325a6d6",
+        "autores": {
+          "autor1": "Paul Deitel / Harvey Deitel "
+        },
+
+        "categoria": "Programação",
+        "preco": 436
+      },
+      {
+        "imgCapa": "https://m.media-amazon.com/images/I/81sTm5M7wjL._SL1500_.jpg",
+        "titulo": "Refatoração: Aperfeiçoando o Design de Códigos Existentes",
+        "link":"https://www.amazon.com.br/Refatora%C3%A7%C3%A3o-Aperfei%C3%A7oando-Design-C%C3%B3digos-Existentes/dp/8575227246/ref=sr_1_1?crid=AJZZQZZ9KCMW&dib=eyJ2IjoiMSJ9.7h4TmEEcIkk8crlC8FnU-_YgMPlmW6E5R4XG4vbKlDsqPgH1lMFFl3um-i5v2wPRHASPg2-Nyp2-UpXBM0sY6LgQWOuO_4BgVhcP-9p136dGaFMzytmeulSFLvcpcw-yXEX_T2smOcW3g5zeBYsQUnrQ-D46CGaD9cgzVf52mtdspA79ldfSO-isY-xqhWmhb6BtYnG8G-Ccvfa91bCVP4EapjY0xll0CUUYWxGZjMfbAhfX5iMx_K0QWskMPRssQO5H8_1jsV_5U84AV62H8WDfd4MLv7lzs5SDjBRWSqk.JRb5Qagk-Pk2hfrhJnL6iscQSJd7gUjnaq8IMdf3_5s&dib_tag=se&keywords=martin+fowler&qid=1715367375&sprefix=martin+fl%2Caps%2C203&sr=8-1",
+        "autores": {
+          "autor1": "Martin Fowler"
+        },
+
+        "categoria": "Programação",
+        "preco": 98
+      }
+    ]
+  }
