@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    fetch('../../db/db.json')
+    fetch('/db/db.json')
         .then(response => response.json())
         .then(data => montarView(data.livros))
         .catch(error => console.log(error))
