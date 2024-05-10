@@ -1,0 +1,132 @@
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Inter', sans-serif;
+    }
+
+    .sobre-container {
+        display: flex;
+        width: 100%;
+        max-height: 800px;
+        padding: 50px;
+        gap: 5%;
+    }
+
+    .sobre-nos {
+        flex: 0 0 45%;
+    }
+
+    .sobre-nos h1 {
+        font-size: 1.4rem;
+        line-height: 2.2rem;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        font-weight: 400;
+        color: #5b627d;
+    }
+
+    .sobre-nos h2 {
+        font-size: 4.8rem;
+        line-height: 5.2rem;
+        font-weight: 500;
+        color: #232938;
+    }
+
+    .sobre-nos p {
+        display: flex;
+        flex-direction: column;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        unicode-bidi: isolate;
+        color: #5b627d;
+        margin-bottom: 40px;
+    }
+
+    .imagem-sobre {
+        display: flex;
+        flex: 0 0 50%;
+    }
+
+
+    .imagem-sobre img {
+        max-width: 80%;
+        width: 80%;
+        height: 80%;
+        font-size: 0;
+        margin: 0 auto;
+        overflow-clip-margin: content-box;
+        overflow: clip;
+    }
+
+    .btn-link-newsletter {
+        
+        padding: 20px 50px;
+        color: #393280;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 300;
+        background-color: transparent;
+        border: 1px solid #393280;
+        border-radius: 5px;
+        margin-top: 28px;
+        transition: all 0.3s ease-in;
+        cursor: pointer;
+    }
+
+    .btn-link-newsletter:hover {
+        background-color: #ED553B;
+        color: #fff;
+        border: 1px solid #ec2300;
+    }
+</style>
+
+<div class="sobre-container">
+    <div class="sobre-nos">
+        <h1>Sobre nós</h1>
+        <h2>Bem-vindo à nossa livraria!</h2>
+        <p>
+            Nossa paixão pela leitura é o que nos impulsiona todos os dias. Desde a nossa
+            fundação, buscamos proporcionar um espaço acolhedor e inspirador para todos os amantes de livros.
+            Nossa missão é simples: conectar pessoas com histórias. Acreditamos no poder transformador da literatura
+            para enriquecer mentes, expandir horizontes e criar comunidades mais vibrantes.
+
+            Com uma seleção cuidadosamente curada de livros em diversos gêneros e assuntos, estamos empenhados em
+            oferecer uma experiência de compra única, onde cada visita seja uma jornada de descoberta.
+
+            Além de ser uma livraria, somos um ponto de encontro para eventos literários, clubes do livro e discussões
+            sobre temas relevantes da atualidade. Queremos ser um espaço onde as pessoas se sintam incentivadas a
+            explorar novas ideias e se conectar com outras mentes criativas.
+
+            Nossa equipe apaixonada está sempre à disposição para ajudar a encontrar o livro perfeito, oferecer
+            recomendações personalizadas ou simplesmente compartilhar nossas próprias histórias de leitura. Estamos aqui
+            para tornar sua experiência conosco memorável e gratificante.
+
+            Agradecemos por fazer parte da nossa jornada e esperamos vê-lo em nossa livraria em breve!</p>
+        <a class="btn-link-newsletter" href="#newsletter">Newsletter &#8594;</a>
+    </div>
+    <div class="imagem-sobre">
+        <img src="../../assets/main-image.png.webp">
+    </div>
+
+</div>
+<section id="newsletter" class="newsletter">
+    <div class="newsletter-title">
+        <h3>SE INSCREVA EM NOSSA NEWSLETTER</h3>
+    </div>
+    <div class="form-newsletter">
+        <p>Tenha acesso a nossas noticias, promoções e a centenas de livros gratuitos diretamente em seu email</p>
+        <div class="email-wrapper">
+            <input type="email" class="input-email" placeholder="Insira seu endereço de email">
+            <div class="send">
+                <span>ENVIAR</span>
+                <i class="fa-regular fa-paper-plane"></i>
+            </div>
+        </div>
+    </div>
+</section>

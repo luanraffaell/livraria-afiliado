@@ -121,16 +121,30 @@ header{
     margin-top: 33px;
 }
 .header-menu .links a{
+    position: relative;
     padding: 0 35px;
+    padding-bottom: 0.3rem;
     text-decoration: none;
     color: #111111;
     font-size: 14px;
     font-weight: 500;
     transition: all 0.3s ease;
 }
+.header-menu .links a::after{
+    content: '';
+    position: absolute;
+    background-color: #ED553B;
+    width: 0;
+    height: 2px;
+    bottom: 1px;
+    left: 20%;
+    transition: all 0.3s ease;
+}
 .header-menu .links a:hover{
     color: #ED553B;
-
+}
+.header-menu .links a:hover::after{
+    width: 60%;
 }
 .header-menu .links a:not(:last-child){
     border-right: 1px solid #D1D1D1;
