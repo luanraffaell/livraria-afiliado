@@ -35,7 +35,7 @@
             </div>
             <div class="inputs">
                 <input type="text" class="input-search" placeholder="Pesquise um livro">
-                <i class="fa-solid fa-magnifying-glass"></i>
+                <button id="search"><i class="fa-solid fa-magnifying-glass"></i></button>
             </div>
             <div class="options-header">
                 <div class="options">
@@ -56,7 +56,7 @@
             <div class="line-menu"></div>
             <div class="links">
                 <a class="home" href="index.html">HOME</a>
-                <a class="menu-indice" href="#">LIVROS</a>
+                <a class="menu-indice" href="pages/books/books.html">LIVROS</a>
                 <a class="menu-indice" href="pages/sobre/sobre.html">SOBRE</a>
                 <a class="menu-indice" href="pages/contato/contato.html">CONTATO</a>
             </div>
@@ -66,11 +66,9 @@
     <div id="container">
         <section class="info-books">
             <div class="info">
-                <h2>ipsum dolor si</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet distinctio qui placeat esse debitis,
-                    nostrum molestiae ad deserunt rerum beatae, velit architecto tempore animi voluptate praesentium laborum
-                    porro ut ducimus.</p>
-                <button class="btn-see-move">Veja mais &#8594;</button>
+                <h2>Acesse os melhores titulos</h2>
+                <p>Explore nosso catálogo diversificado, repleto de obras-primas da literatura clássica, emocionantes best-sellers contemporâneos e fascinantes títulos de nicho em uma variedade de gêneros. Nossa missão é fornecer a você não apenas uma ampla variedade de livros, mas também uma fonte confiável para descobrir novos autores, explorar diferentes culturas e perspectivas, e encontrar aquele livro que ressoa com você de uma maneira única.</p>
+                <button class="btn-see-move"><a class="menu-indice" href="pages/books/books.html">Veja mais &#8594;</a> </button>
             </div>
             <div class="books">
                 <img src="./assets/books.jpg" alt="Livros">
@@ -98,7 +96,7 @@
                         optio repellendus?.</p>
                 </div>
             </div>
-            <button class="btn-see-move">Veja mais &#8594;</button>
+            <button class="btn-see-move"><a class="menu-indice" href="pages/books/books.html">Veja mais &#8594;</a> </button>
         </section>
         <section class="livro-destaque">
             <div class="book">
@@ -112,7 +110,7 @@
                     officia eius quisquam magnam accusamus nulla quas. Mollitia provident veritatis nemo libero tempora
                     minus, quaerat in expedita deleniti eaque?</p>
                 <span class="price">R$45.00</span>
-                <button class="btn-see-move">Veja mais &#8594;</button>
+                <button class="btn-see-move"><a class="menu-indice" href="pages/books/books.html">Veja mais &#8594;</a> </button>
             </div>
         </section>
         <section class="newsletter">
@@ -152,16 +150,16 @@
         <div class="menus">
             <p>Companhia</p>
             <div class="links">
-                <a href="#">HOME</a>
-                <a href="#">SOBRE</a>
-                <a href="#">LIVROS</a>
-                <a href="#">CONTATO</a>
+                <a href="index.html">HOME</a>
+                <a class="menu-indice" href="pages/sobre/sobre.html">SOBRE</a>
+                <a class="menu-indice" href="pages/books/books.html">LIVROS</a>
+                <a class="menu-indice" href="pages/contato/contato.html">CONTATO</a>
             </div>
         </div>
         <div class="menus">
             <p>Links importantes</p>
             <div class="links">
-                <a href="#">SOBRE</a>
+                <a class="menu-indice" href="pages/sobre/sobre.html">SOBRE</a>
                 <a href="https://www.linkedin.com/in/luanraffaell/" target="_blank" target="_blank">LINKEDIN</a>
                 <a href="https://github.com/luanraffaell" target="_blank">REPOSITÓRIO</a>
             </div>
@@ -171,6 +169,7 @@
 
 <script src="scripts/script.js"></script>
 
+</script>
 </html>
 
 <!-- https://www.figma.com/file/uLD0aRSJFtrIPdJECTWzm6/Book-store-template-(Community)?type=design&node-id=0-1&mode=design&t=InOkl6e69jAl3cTi-0 -->

@@ -1,0 +1,103 @@
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Inter', sans-serif;
+    }
+
+    .container {
+        width: 100%;
+        padding: 63px;
+        display: flex;
+        justify-content: space-between;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
+    .card-book {
+        width: 250px;
+        text-align: center;
+        margin-bottom: 50px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    .card-book:hover {
+        border: 1px solid rgb(226, 226, 226);
+
+    }
+
+    .card-book span {
+        display: block;
+    }
+
+    .card-book .card-head {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 30px 37px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+
+    }
+
+    .card-head img {
+        width: 221px;
+        height: 291px;
+    }
+
+    .card-book .title {
+        color: #393280;
+        font-weight: 900;
+        margin: 21px 14px;
+    }
+
+    .card-book .author {
+        font-size: 14px;
+        font-weight: 200;
+        color: #888888;
+        margin-bottom: 18px;
+    }
+
+    .card-book .price {
+        color: #ED553B;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    #carregar-livros{
+        display: none;
+    }
+</style>
+
+<div id="container-book" class="container">
+ 
+    <button id="carregar-livros">carregar</button>
+</div>
+<script>
+    document.getElementById('carregar-livros').addEventListener('click', function () {
+        fetch('../../db/db.json')
+            .then(response => response.json())
+            .then(data => montarView(data.livros))
+            .catch(error => console.log(error))
+    });
+    function montarView(data) {
+        const container = document.getElementById('container-book');
+        console.log(data)
+        data.forEach(data => {
+            const a = document.createElement('a');
+            a.href = data.link;
+            a.setAttribute('target', '_blank');
+            a.classList.add('card-book');
+            a.innerHTML = `
+            <div class="card-head">
+            <img src="${data.imgCapa}">
+            </div>
+            <span class="title">${data.titulo}</span>
+            <span class="author">${data.autores.autor1}</span>
+            <span class="price">R$${data.preco}</span>`
+            container.appendChild(a)
+        })
+    }
+</script>

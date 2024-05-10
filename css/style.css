@@ -116,7 +116,12 @@ header{
     width: 100%;
     padding: 18px 62px;
 }
-
+.menu-indice{
+    text-decoration: none;
+}
+.menu-indice:hover{
+    color: #fff;
+}
 .header-menu .links{
     margin-top: 33px;
 }
@@ -204,6 +209,9 @@ header{
     background-color: #ED553B;
     color: #fff;
     border:1px solid #ec2300;
+}
+.btn-see-move:hover > a{
+    color: #fff;
 }
 .info-books .books{
     display: flex;
@@ -442,4 +450,8 @@ footer{
     margin-bottom: 20px;
     color: #111111;
     text-decoration: none;
+    transition: all 0.3s ease;
+}
+.menus .links a:hover{
+    color: #ec2300;
 }
