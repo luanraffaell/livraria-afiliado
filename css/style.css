@@ -546,22 +546,41 @@ footer{
   .book img{
     scale: calc(70%);
 }
+.livro-destaque .book-details{
+    padding: 150px 0;
+}
 }
 @media screen and (max-width:591px){
     .line-menu .links{
         display: flex;
         
     }
+    body,html{
+        height: 100vh;
+        width: 591px;
+    }
+}
+@media screen and (max-width:538px){
+    .livro-destaque .book{
+        display: none;
+    }
+    .livro-destaque .book-details{
+        width: 100%;
+        padding: 150px 40px;
+    }
+    .newsletter{
+        padding: 50px;
+    }
+    .newsletter .form-newsletter p{
+        display: none;
+    }
+    .newsletter .newsletter-title h3{
+        font-size: 15px;
+    }
 }
 @media screen and (max-width:412px){
 
-  .livro-destaque{
-    display: none;
-  }
-  body,html{
-    height: 100vh;
-    width: 412px;
-}
+
 .form-newsletter{
     width: 80%;
 }
