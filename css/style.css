@@ -455,3 +455,120 @@ footer{
 .menus .links a:hover{
     color: #ec2300;
 }
+
+/*media*/
+
+@media screen and (max-width:1287px){
+    .info-books .info h2{
+        font-size: 40px;
+    }
+    .info-books .info p{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:1131px){
+  .info-books .books{
+    display: none;
+  }
+}
+@media screen and (max-width:1000px){
+    .category-find .categorias{
+        flex-wrap: wrap;
+    }
+    .newsletter{
+        flex-direction: column;
+        text-align: center;
+    }
+    .newsletter .newsletter-title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        font-size: 1.rem;
+    }
+    .newsletter .newsletter-title h3{
+        font-size: 30px;
+    }
+    .social .footer-icons{
+        font-size: 25px;
+        margin-top: 10%;
+    }
+}
+@media screen and (max-width:923px){
+    
+    footer{
+        flex-wrap: wrap;
+    }
+    footer .social{
+        display: none;
+    }
+ 
+}
+@media screen and (max-width:732px){
+    
+    .book img{
+        scale: calc(85%);
+    }
+    .menus p{
+        font-size: 18px;
+    }
+    .menus .links a{
+        font-size: 14px;
+    }
+    .options a{
+        display: none;
+    }
+}
+@media screen and (max-width:696px){
+    .book-details h5{
+        font-size: 24px;
+    }   
+    .book-details .author{
+        font-size: 10px;
+    }
+    .book-details .title-book{
+        font-size: 12px;
+    }
+    .book-details .book-detail{
+        font-size: 14px;
+        text-overflow: ellipsis;
+    }
+}
+@media screen and (max-width:632px){
+  footer{
+    padding: 50px 20px;
+  }
+}
+@media screen and (max-width:694px){
+  footer{
+    padding: 50px 20px;
+  }
+  .book img{
+    scale: calc(70%);
+}
+}
+@media screen and (max-width:591px){
+    .line-menu .links{
+        display: flex;
+        
+    }
+}
+@media screen and (max-width:412px){
+
+  .livro-destaque{
+    display: none;
+  }
+  body,html{
+    height: 100vh;
+    width: 412px;
+}
+.form-newsletter{
+    width: 80%;
+}
+.form-newsletter .email-wrapper{
+    width: 100%;
+}
+.send span{
+    display: none;
+}
+}

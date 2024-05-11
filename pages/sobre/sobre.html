@@ -62,10 +62,11 @@
         margin: 0 auto;
         overflow-clip-margin: content-box;
         overflow: clip;
+        border-radius: 30px;
     }
 
     .btn-link-newsletter {
-        
+
         padding: 20px 50px;
         color: #393280;
         text-decoration: none;
@@ -83,6 +84,33 @@
         background-color: #ED553B;
         color: #fff;
         border: 1px solid #ec2300;
+    }
+
+    @media screen and (max-width:1230px) {
+        .imagem-sobre {
+            display: none;
+        }
+
+        .sobre-nos {
+            flex-grow: 1;
+        }
+
+    }
+
+    @media screen and (max-width:613px) {
+        .sobre-nos h2 {
+            font-size: 2.2rem;
+        }
+    }
+    @media screen and (max-width:412px) {
+        .sobre-container{
+            max-height: 914px;
+        }
+    }
+    @media screen and (max-width:556px) {
+        .sobre-container{
+            max-height: 1350px;
+        }
     }
 </style>
 
@@ -111,7 +139,7 @@
         <a class="btn-link-newsletter" href="#newsletter">Newsletter &#8594;</a>
     </div>
     <div class="imagem-sobre">
-        <img src="../../assets/sobre-img.png">
+        <img src="../../assets/livraria.jpg">
     </div>
 
 </div>
