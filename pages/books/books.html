@@ -18,7 +18,8 @@
     }
 
     .card-book {
-        width: 250px;
+        max-width: 250px;
+        width: 100%;
         text-align: center;
         margin-bottom: 50px;
         cursor: pointer;
@@ -71,6 +72,17 @@
     #carregar-livros{
         display: none;
     }
+    @media screen and (max-width:640px){
+        .card-book{
+            max-width: 200px;
+        }
+        .card-head img {
+        width: 172px;
+        height: 205px;
+        }
+
+  }
+
 </style>
 
 <div id="container-book" class="container">
