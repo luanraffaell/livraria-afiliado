@@ -1,3 +1,6 @@
+document.addEventListener('DOMContentLoaded',() =>{
+    document.querySelector('.home').click()
+})
 document.querySelectorAll('.menu-indice').forEach(link => {
     link.onclick = function (e) {
         e.preventDefault();

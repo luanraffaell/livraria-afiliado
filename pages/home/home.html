@@ -1,0 +1,93 @@
+<section class="info-books">
+    <div class="info">
+        <h2>Acesse os melhores titulos</h2>
+        <p>Explore nosso catálogo diversificado, repleto de obras-primas da literatura clássica, emocionantes best-sellers contemporâneos e fascinantes títulos de nicho em uma variedade de gêneros. Nossa missão é fornecer a você não apenas uma ampla variedade de livros, mas também uma fonte confiável para descobrir novos autores, explorar diferentes culturas e perspectivas, e encontrar aquele livro que ressoa com você de uma maneira única.</p>
+        <button class="btn-see-move"><a class="menu-indice" href="pages/books/books.html">Veja mais &#8594;</a> </button>
+    </div>
+    <div class="books">
+        <img src="./assets/books.jpg" alt="Livros">
+    </div>
+</section>
+<section class="category-find">
+    <h3>Explore nossas categorias</h3>
+    <div class="categorias">
+        <div class="card">
+            <img src="./assets/livro1.png">
+            <span>Alta educação</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo nulla saepe corrupti voluptatum
+                optio repellendus?.</p>
+        </div>
+        <div class="card">
+            <img src="./assets/livro1.png">
+            <span class="title-category">Alta educação</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo nulla saepe corrupti voluptatum
+                optio repellendus?.</p>
+        </div>
+        <div class="card">
+            <img src="./assets/livro1.png">
+            <span class="title-category">Alta educação</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo nulla saepe corrupti voluptatum
+                optio repellendus?.</p>
+        </div>
+    </div>
+    <button class="btn-see-move"><a class="menu-indice" href="pages/books/books.html">Veja mais &#8594;</a> </button>
+</section>
+<section class="livro-destaque">
+    <div class="book">
+        <img src="./assets/book-sale.png" alt="livro em destaque">
+    </div>
+    <div class="book-details">
+        <h5>Livro em destaque</h5>
+        <span class="author">BY TIMBUR HOOD</span>
+        <p class="title-book">Birds Gonna Be Happy</p>
+        <p class="book-detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur perferendis ipsum
+            officia eius quisquam magnam accusamus nulla quas. Mollitia provident veritatis nemo libero tempora
+            minus, quaerat in expedita deleniti eaque?</p>
+        <span class="price">R$45.00</span>
+        <button class="btn-see-move"><a class="menu-indice" href="pages/books/books.html">Veja mais &#8594;</a> </button>
+    </div>
+</section>
+<section class="newsletter">
+    <div class="newsletter-title">
+        <h3>SE INSCREVA EM NOSSA NEWSLETTER</h3>
+    </div>
+    <div class="form-newsletter">
+        <p>Tenha acesso a nossas noticias, promoções e a centenas de livros gratuitos diretamente em seu email</p>
+        <div class="email-wrapper">
+            <input type="email" class="input-email" placeholder="Insira seu endereço de email">
+            <div class="send">
+                <span>ENVIAR</span>
+                <i class="fa-regular fa-paper-plane"></i>
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+    document.querySelectorAll('.menu-indice').forEach(link => {
+    link.onclick = function (e) {
+        e.preventDefault();
+
+        const conteudo = document.getElementById('container')
+        fetch(link.href)
+            .then(response => response.text())
+            .then(html => {
+                conteudo.innerHTML = html;
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth' // Rola suavemente
+                });
+                // Cria um novo elemento script para cada script na página carregada
+                const scripts = conteudo.querySelectorAll('script');
+                scripts.forEach(script => {
+                    const novoScript = document.createElement('script');
+                    novoScript.innerHTML = script.innerHTML;
+                    conteudo.appendChild(novoScript);
+                });
+                const botao = conteudo.querySelector('#carregar-livros');
+                if(botao){
+                    botao.click()
+                }
+            })
+    }
+})
+</script>
